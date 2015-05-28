@@ -17,6 +17,6 @@ public class Gasolinera {
     String localidad;
     String codigoPostal;
     String direccion;
-    ArrayList <TipoCombustible> combustibles;
+    ArrayList<TipoCombustible> combustibles;
     
 }
