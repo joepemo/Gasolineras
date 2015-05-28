@@ -5,7 +5,7 @@
 package apliccion;
 
 import java.io.File;
-import utilidades.DescargaXls;
+import utilidades.UtilidadesXls;
 import java.io.IOException;
 import utilidades.ExcelToXml;
 
@@ -19,7 +19,7 @@ public class Principal {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws IOException {
-        DescargaXls desc = new DescargaXls();
+        UtilidadesXls desc = new UtilidadesXls();
         desc.DevuelveXls("http://geoportalgasolineras.es/descargarPreciosTodasEstaciones.do?tipoBusqueda=0");
         ExcelToXml excel = new ExcelToXml();
         File input = new File("precioGasolineras.xls");
