@@ -3,19 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package clases;
+package Datos;
+
+import clases.Gasolinera;
 import java.util.ArrayList;
 
 /**
  *
- * @author Evaristo
- * 
+ * @author gamba
  */
-public class Gasolinera {
-    String provincia;
-    String localidad;
-    String codigoPostal;
-    String direccion;
-    ArrayList<TipoCombustible> combustibles;
+public class Gasolineras extends ArrayList<Gasolinera>
+{
     
 }

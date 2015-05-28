@@ -5,10 +5,13 @@
  */
 package dom;
 
+import java.io.File;
+
 /**
  *
  * @author gamba
  */
 public class XmlControlGasolineras extends XmlControlDOM{
-    
+    File file = null;
+	private  = null;
 }
