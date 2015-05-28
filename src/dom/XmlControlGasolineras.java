@@ -13,5 +13,4 @@ import java.io.File;
  */
 public class XmlControlGasolineras extends XmlControlDOM{
     File file = null;
-	private  = null;
 }
