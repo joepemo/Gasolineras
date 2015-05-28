@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package utilidades;
+package dom;
 
 import java.io.File;
 import java.io.IOException;
@@ -25,7 +25,7 @@ import org.xml.sax.SAXException;
  *
  * @author Evaristo
  */
-public class UtilidadesDOM {
+public class ControlDOM {
     
 	public static Document instanciarDocument() throws ParserConfigurationException{
 		Document doc = null;
