@@ -14,5 +14,7 @@ import java.util.ArrayList;
  */
 public class Gasolineras extends ArrayList<Gasolinera>
 {
-    
+    public ArrayList<Gasolinera> getGasolineras(){
+        return this;
+    }
 }
